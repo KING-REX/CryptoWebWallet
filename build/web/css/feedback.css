@@ -1,0 +1,42 @@
+.feedback {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    padding: 0 8px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #000;
+    margin-top: -6vh;
+    border-radius: 25px;
+}
+
+.feedback.error {
+    background-color: rgba(255, 0, 0, .55);
+    color: black;
+}
+
+.feedback.info {
+    background-color: rgba(0, 255, 0, .55);
+    color: black;
+}
+
+#cancel-button {
+    background-color: red;
+    height: 50%;
+    width: 30px;
+    cursor: pointer;
+}
+
+.close {
+    display: inline;
+    cursor: pointer;
+}
+
+.closeh {
+    display: none;
+}
